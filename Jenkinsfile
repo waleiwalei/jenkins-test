@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'npm --version'
+                echo 'hello 2022.11.21'
             }
         }
     }
