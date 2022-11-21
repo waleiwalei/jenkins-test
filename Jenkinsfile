@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'npm --version'
                 echo 'hello 2022.11.21'
-                echo 'can i build automatically？'
+                echo 'can i build automatically？Test2'
             }
         }
     }
